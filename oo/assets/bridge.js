@@ -1,6 +1,9 @@
 //加载类
 //require('oo');
 //require('sub');
+//require('myClass');
+//require('mySubClass');
+//require('getsetClass');
 
 cc.Class({
     extends: cc.Component,
@@ -15,7 +18,22 @@ cc.Class({
         
         //this.subTest();  
         
+        // var point = new cc.MyPoint(2,3);
+        // console.log(point);
+        // console.log(cc.MyPoint.name);
         
+        // var colorPoint = new cc.MyColorPoint(2,3,'red');
+        // console.log(colorPoint);
+        // console.log(cc.MyColorPoint.name);
+        
+            // let getsetinstance = new cc.MyGetSetClass();
+            
+            // console.log(getsetinstance.prop);
+            // getsetinstance.prop = 123;
+            
+        
+
+            
     },
     
     subTest:function(){
